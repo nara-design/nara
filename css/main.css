@@ -8,7 +8,7 @@
 body {
   font-family: "Exo", sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height:1.6;
   text-align: left;
   color: #393939;
@@ -38,20 +38,32 @@ img {
 #bg-nautiqua-case-study {
   background-image: url(../images/nautiqua-thumbnail.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #bg-coral-rescue-case-study {
   background-image: url(../images/coral-rescue-thumbnail.png);
   background-size: cover;
+  background-position: center;
+
 }
 
 #bg-pasc-case-study {
-  background-image: url(../images/pasc-thumbnail-3.png);
+  background-image: url(../images/pasc-thumbnail.png);
   background-size: cover;
+  background-position: center;
+}
+
+#bg-me {
+  background-image: url(../images/me.png);
+  background-size: cover;
+  background-position: center;
+
 }
 
 .full-width {
   width: 100%;
+  display: inline-block;
 }
 
 .half-width {
@@ -66,7 +78,27 @@ img {
   width: 40%;
 }
 
+.three-quarter-width {
+  width: 75%;
+}
+
+.one-quarter-width {
+  width: 25%;
+}
+
+.one-third-width {
+  width: 30%;
+}
+
+.two-third-width {
+  width:70%;
+}
+
 /* text start */
+
+b {
+  font-weight: 600;
+}
 
 .white-text {
   color: #f5f5f5;
@@ -96,11 +128,6 @@ h4 {
   font-size: 12px;
   line-height: 14px;
   font-style: italic;
-}
-
-.bigger-body {
-  font-size: 14px;
-  line-height: 1.6;
 }
 
 /* text finish */
@@ -203,8 +230,12 @@ section {
   background-color: #fff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+}
+
+.row-flex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 section:hover {
@@ -276,12 +307,17 @@ footer {
 
 @media only screen and (max-width:980px) {
 
-  .half-width, .three-fifth-width, .two-fifth-width {
+  .half-width, .three-fifth-width, .two-fifth-width, .one-quarter-width, .three-quarter-width, .one-third-width, .two-third-width {
     width: 100%;
   }
 
   #bg-nautiqua-case-study, #bg-coral-rescue-case-study, #bg-pasc-case-study {
     height: 200px;
+  }
+
+  #bg-me {
+    height: 500px;
+    background-position: center;
   }
 
   .squished-main {
@@ -298,6 +334,11 @@ footer {
 
   section {
     flex-direction: column;
+  }
+
+  .row-flex {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .footer-flex {

@@ -1,0 +1,67 @@
+:root {
+  --nautiqua-color: #2C5E4F;
+}
+
+.case-study {
+  width: 96%;
+  margin: 2%;
+  padding: 20px;
+}
+
+.finicky-bit {
+  padding-top: 30px;
+}
+
+#nautiqua-case-study {
+  color: var(--nautiqua-color);
+}
+
+/* text start */
+
+/* small headings */
+h5 {
+  font-size: 12px;
+  line-height:1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* big headings */
+h6 {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+}
+
+.bigger-body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.citation {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* text finish */
+
+/* content start */
+
+.thick-padding {
+  padding: 80px;
+}
+
+.thick-padding-side {
+  padding: 10px 80px;
+}
+
+.thin-padding {
+  padding: 10px;
+}
+
+/* content finish */
