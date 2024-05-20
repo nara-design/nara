@@ -116,7 +116,7 @@ h6 {
 
 .stat-text {
   font-size: 26px;
-  line-height: 40px;
+  line-height: 36px;
   font-weight: 300;
 }
 
@@ -124,8 +124,11 @@ h6 {
 
 @media only screen and (max-width:980px) {
 
+  .img-wrapper {
+    padding: 20px 20px 0;
+  }
   .img {
-    height: 300px;
+    height: 260px;
   }
   .thick-padding {
     padding: 20px;
@@ -135,6 +138,10 @@ h6 {
   }
   .thick-top, .mid-top {
     margin-top: 20px;
+  }
+  .stat-text {
+    font-size: 18px;
+    line-height: 26px;
   }
   
 }
