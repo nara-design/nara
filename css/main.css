@@ -315,11 +315,6 @@ footer {
     height: 200px;
   }
 
-  #bg-me {
-    height: 500px;
-    background-position: center;
-  }
-
   .squished-main {
     padding-left:300px;
   }
@@ -432,3 +427,12 @@ footer {
 }
 
 /* page transitions finish */
+
+.contact-page {
+  width: 100%;
+  height: 80vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

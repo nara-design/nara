@@ -2,18 +2,25 @@
   --nautiqua-color: #2C5E4F;
 }
 
-.case-study {
-  width: 96%;
-  margin: 2%;
-  padding: 20px;
+.case-study .project-tag {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin: 0 10px 10px 0;
 }
 
-.finicky-bit {
-  padding-top: 30px;
+.active-tag {
+  background-color: var(--nautiqua-color);
+  color: #fff;
 }
 
 #nautiqua-case-study {
   color: var(--nautiqua-color);
+}
+
+#nautiqua-case-study .project-tag {
+  border-color: var(--nautiqua-color);
 }
 
 /* text start */
@@ -52,16 +59,82 @@ h6 {
 
 /* content start */
 
+.rounded-img {
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.img-wrapper {
+  padding: 30px 30px 0;
+}
+
+.img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+
+  height: 450px;
+  border-radius: 15px;
+}
+
+.tool-icon {
+  height: 17px;
+  padding:2px 5px 0 0;
+  float:left;
+}
+
 .thick-padding {
   padding: 80px;
 }
 
-.thick-padding-side {
-  padding: 10px 80px;
+.mid-padding {
+  padding: 40px;
 }
 
 .thin-padding {
   padding: 10px;
 }
 
+.thick-top {
+  margin-top: 80px;
+}
+
+.mid-top {
+  margin-top: 40px;
+}
+
+.small-top {
+  margin-top: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.stat-text {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
 /* content finish */
+
+@media only screen and (max-width:980px) {
+
+  .img {
+    height: 300px;
+  }
+  .thick-padding {
+    padding: 20px;
+  }
+  .mid-padding {
+    padding: 20px 10px;
+  }
+  .thick-top, .mid-top {
+    margin-top: 20px;
+  }
+  
+}
