@@ -15,12 +15,55 @@
   color: #fff;
 }
 
+.extra-content {
+  background-image: url('../images/bg-tile.png');
+  border-top: 1px solid #DFDFDF;
+  background-attachment: fixed;
+}
+
+.extra-content-item img {
+  transition: 500ms ease-out;
+}
+
+.extra-content-item img:hover {
+  transform: scale(1.05);
+}
+
 #nautiqua-case-study {
   color: var(--nautiqua-color);
+  background-color: #fff;
 }
 
 #nautiqua-case-study .project-tag {
   border-color: var(--nautiqua-color);
+}
+
+#nautiqua-stats {
+  background-color: #2C5E4F;
+  background-image: url(../images/nautiqua-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#nautiqua-product {
+  background-image: url(../images/nautiqua-thumbnail.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#nautiqua-installation {
+  background-image: url(../images/nautiqua-installation.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#nautiqua-case-study a {
+  color: var(--nautiqua-color);
+  text-decoration: underline;
 }
 
 /* text start */
@@ -61,20 +104,10 @@ h6 {
 
 .rounded-img {
   border-radius: 15px;
-  margin: 30px;
 }
 
 .img-wrapper {
   padding: 30px 30px 0;
-}
-
-.img {
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-
-  height: 450px;
-  border-radius: 15px;
 }
 
 .tool-icon {
@@ -123,6 +156,14 @@ h6 {
 /* content finish */
 
 @media only screen and (max-width:980px) {
+
+  #nautiqua-stats {
+    background-attachment: unset;
+  }
+  #nautiqua-product {
+    background-attachment: unset;
+    height: 50vh;
+  }
 
   .img-wrapper {
     padding: 20px 20px 0;
