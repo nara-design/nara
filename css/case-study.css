@@ -187,7 +187,7 @@ h6 {
   #nautiqua-stats {
     background-attachment: unset;
   }
-  #nautiqua-product {
+  #nautiqua-product, #nautiqua-installation {
     background-attachment: unset;
     height: 50vh;
   }
