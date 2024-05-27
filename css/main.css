@@ -35,6 +35,13 @@ img {
   display: block;
 }
 
+video {
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
 #bg-nautiqua-case-study {
   background-image: url(../images/nautiqua-thumbnail.jpg);
   background-size: cover;
@@ -42,7 +49,7 @@ img {
 }
 
 #bg-coral-rescue-case-study {
-  background-image: url(../images/coral-rescue-thumbnail.png);
+  background-image: url(../images/coral-rescue/coral-rescue-thumbnail.png);
   background-size: cover;
   background-position: center;
 
@@ -67,7 +74,7 @@ img {
 }
 
 .half-width {
-  width:50%;
+  width: 50%;
 }
 
 .three-fifth-width {

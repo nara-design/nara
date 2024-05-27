@@ -86,6 +86,13 @@
   text-decoration: underline;
 }
 
+#cr-sketches {
+  background-image: url(../images/coral-rescue/cr-5.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
 /* text start */
 
 /* small headings */
