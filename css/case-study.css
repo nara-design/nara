@@ -1,5 +1,6 @@
 :root {
   --nautiqua-color: #2C5E4F;
+  --coral-rescue-color: #4B51DC;
 }
 
 .case-study .project-tag {
@@ -10,8 +11,13 @@
   margin: 0 10px 10px 0;
 }
 
-.active-tag {
+#nautiqua-case-study .active-tag {
   background-color: var(--nautiqua-color);
+  color: #fff;
+}
+
+#coral-rescue-case-study .active-tag {
+  background-color: var(--coral-rescue-color);
   color: #fff;
 }
 
@@ -36,6 +42,15 @@
 
 #nautiqua-case-study .project-tag {
   border-color: var(--nautiqua-color);
+}
+
+#coral-rescue-case-study {
+  color: var(--coral-rescue-color);
+  background-color: #fff;
+}
+
+#coral-rescue-case-study .project-tag {
+  border-color: var(--coral-rescue-color);
 }
 
 #nautiqua-stats {
@@ -63,6 +78,11 @@
 
 #nautiqua-case-study a {
   color: var(--nautiqua-color);
+  text-decoration: underline;
+}
+
+#coral-rescue-case-study a {
+  color: var(--coral-rescue-color);
   text-decoration: underline;
 }
 
