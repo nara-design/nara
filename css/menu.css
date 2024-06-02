@@ -72,6 +72,11 @@ nav a:hover {
   transition: 0.5s;
 }
 
+nav .active-nav {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
 .menu-right-content {
   width:80px;
   height:100%;

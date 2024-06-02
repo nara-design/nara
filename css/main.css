@@ -8,7 +8,7 @@
 body {
   font-family: "Exo", sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 13px;
   line-height:1.6;
   text-align: left;
   color: #393939;
@@ -56,7 +56,7 @@ video {
 }
 
 #bg-pasc-case-study {
-  background-image: url(../images/pasc-thumbnail.png);
+  background-image: url(../images/pasc/pasc-home-mockup.png);
   background-size: cover;
   background-position: center;
 }
@@ -109,6 +109,16 @@ b {
 
 i {
   font-style: italic;
+}
+
+#pasc-case-study ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 30px;
 }
 
 .white-text {
