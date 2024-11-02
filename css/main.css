@@ -42,6 +42,12 @@ video {
   height: auto;
 }
 
+#bg-her-legend-case-study {
+  background-image: url(../images/her-legend/hl-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
 #bg-nautiqua-case-study {
   background-image: url(../images/nautiqua/nautiqua-thumbnail.jpg);
   background-size: cover;

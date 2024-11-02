@@ -2,6 +2,7 @@
   --nautiqua-color: #2C5E4F;
   --coral-rescue-color: #4B51DC;
   --pasc-color: #1F1A3C;
+  --her-legend-color: #000401;
 }
 
 .case-study .project-tag {
@@ -10,6 +11,11 @@
   padding: 5px 15px;
   border-radius: 20px;
   margin: 0 10px 10px 0;
+}
+
+#her-legend-case-study .active-tag {
+  background-color: var(--her-legend-color);
+  color: #fff;
 }
 
 #nautiqua-case-study .active-tag {
