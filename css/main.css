@@ -16,6 +16,11 @@ body {
   background-repeat: repeat;
 }
 
+ul {
+  list-style-type: square;
+  padding-left:20px;
+}
+
 a {
   text-decoration: none;
 }
