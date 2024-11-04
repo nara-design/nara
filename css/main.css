@@ -16,7 +16,7 @@ body {
   background-repeat: repeat;
 }
 
-ul {
+ul.skills-list {
   list-style-type: square;
   padding-left:20px;
 }
