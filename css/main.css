@@ -47,6 +47,12 @@ video {
   height: auto;
 }
 
+#bg-little-night-helpers-case-study {
+  background-image: url(../images/little-night-helpers/image4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 #bg-her-legend-case-study {
   background-image: url(../images/her-legend/hl-1.png);
   background-size: cover;

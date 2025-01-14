@@ -3,6 +3,7 @@
   --coral-rescue-color: #4B51DC;
   --pasc-color: #1F1A3C;
   --her-legend-color: #000401;
+  --little-night-helpers-color: #02315c;
 }
 
 .case-study .project-tag {
@@ -13,9 +14,28 @@
   margin: 0 10px 10px 0;
 }
 
+#little-night-helpers-case-study .active-tag {
+  background-color: var(--little-night-helpers-color);
+  color: #fff;
+}
+
+#little-night-helpers-case-study {
+  color: var(--little-night-helpers-color);
+}
+
+#little-night-helpers-case-study a {
+  color: var(--little-night-helpers-color);
+  text-decoration: underline;
+}
+
 #her-legend-case-study .active-tag {
   background-color: var(--her-legend-color);
   color: #fff;
+}
+
+#her-legend-case-study a {
+  color: var(--her-legend-color);
+  text-decoration: underline;
 }
 
 #nautiqua-case-study .active-tag {
