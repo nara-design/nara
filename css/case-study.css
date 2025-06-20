@@ -38,6 +38,17 @@
   text-decoration: underline;
 }
 
+#her-legend-methodology {
+  background-color: #000401;
+  background-image: url(../images/her-legend/bg-1.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#her-legend-clips {
+  background-color: #000;
+}
+
 #nautiqua-case-study .active-tag {
   background-color: var(--nautiqua-color);
   color: #fff;
