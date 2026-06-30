@@ -47,6 +47,12 @@ video {
   height: auto;
 }
 
+#bg-one-day-case-study {
+  background-image: url(../images/one-day/image4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 #bg-little-night-helpers-case-study {
   background-image: url(../images/little-night-helpers/thumbnail2.png);
   background-size: cover;
@@ -349,7 +355,7 @@ footer {
     width: 100%;
   }
 
-  #bg-little-night-helpers-case-study, #bg-her-legend-case-study, #bg-nautiqua-case-study, #bg-coral-rescue-case-study, #bg-pasc-case-study {
+  #bg-one-day-case-study, #bg-little-night-helpers-case-study, #bg-her-legend-case-study, #bg-nautiqua-case-study, #bg-coral-rescue-case-study, #bg-pasc-case-study {
     height: 200px;
   }
 
