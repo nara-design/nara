@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #bfabed;
+}
+
 body {
   font-family: "Exo", sans-serif;
   font-weight: 300;
