@@ -1,414 +1,388 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nara's Portfolio</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nara's Portfolio</title>
 
-  <link rel="icon" type="image/ico" href="images/favicon-white/favicon.ico">
+    <link rel="icon" type="image/ico" href="images/favicon-white/favicon.ico">
 
-  <script src="js/menu.js" defer></script>
-  <script src="js/main.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/main.js" defer></script>
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="css/case-study.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/case-study.css">
 
-  <meta name="view-transition" content="same-origin">
+    <meta name="view-transition" content="same-origin">
 
-  <script src="https://kit.fontawesome.com/bc961035cb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bc961035cb.js" crossorigin="anonymous"></script>
 
-  <!-- federo typeface -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <!-- federo typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
 
-  <!-- exo typeface -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- exo typeface -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-</head>
-<body>
+    </head>
+    <body>
 
-  <!-- desktop menu start -->
-  <!-- ADD default-expanded class if relevant -->
-  <header id="menu" class="menu-small">
+    <!-- desktop menu start -->
+    <!-- ADD default-expanded class if relevant -->
+    <header id="menu" class="menu-small">
 
-    <!-- left content start -->
-    <div class="menu-left-content">
+        <!-- left content start -->
+        <div class="menu-left-content">
 
-      <div class="menu-item">
+        <div class="menu-item">
+            <h1>nara</h1>
+            <p class="blurb">Kia ora, I’m Nara. I care about crafting comfortable and purpose-driven design experiences.</p>
+        </div>
+
+
+        <nav class="menu-item">
+            <ul>
+            <li>
+                <a href="index.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            </ul>
+        </nav>
+
+        </div>
+        <!-- left content finish -->
+
+        <!-- right content start -->
+        <div id="menu-indicator" class="menu-right-content">
+
+        <!-- hamburger menu start -->
+        <div>
+            <div class="hamburger-line">&nbsp;</div>
+            <div class="hamburger-line">&nbsp;</div>
+            <div class="hamburger-line">&nbsp;</div>
+        </div>
+
+        <div id="menu-indicator" class="menu-indicator">
+            <div class="menu-indicator-text">MENU</div>
+            <img src="images/menu-arrow-indicator.svg" alt="">
+        </div>
+        <!-- hamburger menu finish -->
+
+        </div>
+        <!-- right content finish -->
+
+    </header>
+    <!-- desktop menu finish -->
+    
+    <!-- mob menu start -->
+    <div id="mobMenu" class="mob-menu mob-menu-hide">
+
+        <div class="menu-item">
         <h1>nara</h1>
         <p class="blurb">Kia ora, I’m Nara. I care about crafting comfortable and purpose-driven design experiences.</p>
-      </div>
-
-
-      <nav class="menu-item">
+        </div>
+        
+        <nav class="menu-item">
         <ul>
-          <li>
+            <li>
             <a href="index.html">Portfolio</a>
-          </li>
-          <li>
+            </li>
+            <li>
             <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+            </li>
+            <li>
+            <a href="contact.html">Contact</a>
+            </li>
         </ul>
-      </nav>
+        </nav>
 
     </div>
-    <!-- left content finish -->
+    <!-- mob menu finish -->
 
-    <!-- right content start -->
-    <div id="menu-indicator" class="menu-right-content">
-
-      <!-- hamburger menu start -->
-      <div>
-        <div class="hamburger-line">&nbsp;</div>
-        <div class="hamburger-line">&nbsp;</div>
-        <div class="hamburger-line">&nbsp;</div>
-      </div>
-
-      <div id="menu-indicator" class="menu-indicator">
-        <div class="menu-indicator-text">MENU</div>
-        <img src="images/menu-arrow-indicator.svg" alt="">
-      </div>
-      <!-- hamburger menu finish -->
-
+    <!-- hamburger button start -->
+    <div id="menu-toggle" class="menu-toggle">
+        <div class="hamburger-line-top">&nbsp;</div>
+        <div class="hamburger-line-middle">&nbsp;</div>
+        <div class="hamburger-line-bottom">&nbsp;</div>
     </div>
-    <!-- right content finish -->
+    <!-- hamburger button finish -->
 
-  </header>
-  <!-- desktop menu finish -->
-  
-  <!-- mob menu start -->
-  <div id="mobMenu" class="mob-menu mob-menu-hide">
+    <!-- main content start -->
+    <!-- change between full-main or squished-main classes depending on what's relevant -->
+    <main class="full-main">
 
-    <div class="menu-item">
-      <h1>nara</h1>
-      <p class="blurb">Kia ora, I’m Nara. I care about crafting comfortable and purpose-driven design experiences.</p>
-    </div>
-    
-    <nav class="menu-item">
-      <ul>
-        <li>
-          <a href="index.html">Portfolio</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        <!-- DON'T DELETE THESE START -->
+        <div id="top"></div>
 
-  </div>
-  <!-- mob menu finish -->
+        <button onclick="history.back()" class="back-btn">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </button>
 
-  <!-- hamburger button start -->
-  <div id="menu-toggle" class="menu-toggle">
-    <div class="hamburger-line-top">&nbsp;</div>
-    <div class="hamburger-line-middle">&nbsp;</div>
-    <div class="hamburger-line-bottom">&nbsp;</div>
-  </div>
-  <!-- hamburger button finish -->
-
-  <!-- main content start -->
-  <!-- change between full-main or squished-main classes depending on what's relevant -->
-  <main class="full-main">
-
-    <!-- DON'T DELETE THESE START -->
-    <div id="top"></div>
-
-    <button onclick="history.back()" class="back-btn">
-        <i class="fa-solid fa-arrow-left-long"></i>
-    </button>
-
-    <a href="#top">
-      <button class="top-btn">
-        <i class="fa-solid fa-arrow-up-long"></i>
-      </button>
-    </a>
-    <!-- DONT DELETE THESE FINISH -->
+        <a href="#top">
+        <button class="top-btn">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </button>
+        </a>
+        <!-- DONT DELETE THESE FINISH -->
 
 
-    <!-- CASE STUDY START -->
-    <div id="moalympics-case-study" class="case-study">
-      
-      <!-- first seciton start -->
-      <div class="row-flex">
+        <!-- CASE STUDY START -->
+        <div class="case-study">
+        
+        <!-- first seciton start -->
+        <div class="row-flex">
 
-        <!-- left side start -->
-        <div class="two-fifth-width thick-padding">
-          
-          <div class="mid-top">
-            <h3 class="thin-padding">Moalympics</h3>
-            <h1 class="thin-padding">Bringing fans together with streaming parties</h1>
-          </div>
-
-          <!-- roles start -->
-          <div class="full-width mid-top">
-            <p class="thin-padding bigger-body"><b>My Roles</b></p>
-            <div class="project-tags thin-padding">
-              <div class="project-tag active-tag">Graphic Design</div>
-              <div class="project-tag">Branding</div>
-              <div class="project-tag">Social Media</div>
+            <!-- left side start -->
+            <div class="two-fifth-width thick-padding">
+            
+            <div class="mid-top">
+                <h3 class="thin-padding">Moalympics</h3>
+                <h1 class="thin-padding">Bringing fans together with streaming parties</h1>
             </div>
-          </div>
-          <!-- roles finish -->
 
-          <!-- tools start -->
-          <div class="full-width small-top">
-            <p class="thin-padding bigger-body"><b>Tools</b></p>
-            <div class="project-tags thin-padding">
-              <div class="project-tag"><i class="fa-brands fa-figma"></i> Figma</div>
+            <!-- roles start -->
+            <div class="full-width mid-top">
+                <p class="thin-padding bigger-body"><b>My Roles</b></p>
+                <div class="project-tags thin-padding">
+                <div class="project-tag active-tag">Graphic Design</div>
+                <div class="project-tag">Branding</div>
+                <div class="project-tag">Social Media</div>
+                </div>
             </div>
-          </div>
-          <!-- tools finish -->
+            <!-- roles finish -->
+
+            <!-- tools start -->
+            <div class="full-width small-top">
+                <p class="thin-padding bigger-body"><b>Tools</b></p>
+                <div class="project-tags thin-padding">
+                <div class="project-tag"><i class="fa-brands fa-figma"></i> Figma</div>
+                </div>
+            </div>
+            <!-- tools finish -->
+
+            </div>
+            <!-- left side finish -->
+
+            <!-- right side start -->
+            <div class="three-fifth-width mid-padding">
+
+            <div class="img-wrapper">
+                <img class="full-width rounded-img" src="images/moalympics/image2.png" alt="">
+            </div>
+            <div class="img-wrapper">
+                <img class="full-width rounded-img" src="images/moalympics/image3.png" alt="">
+            </div>
+
+            </div>
+            <!-- right side finish -->
 
         </div>
-        <!-- left side finish -->
+        <!-- first section finish -->
 
-        <!-- right side start -->
-        <div class="three-fifth-width mid-padding">
+        <!-- intro start -->
+        <div class="row-flex full-width mid-padding">
+            <div class="one-third-width mid-padding">
+            <h5 class="thin-padding">Introduction</h5>
+            <h6 class="thin-padding">A unique challenge of unfixed branding</h6>
+            </div>
+            <div class="two-third-width mid-padding bigger-body">
+            <p class="thin-padding">Moalympics is a fan-led initiative consisting of a group of volunteers who host streaming parties on Stationhead and Weverse in support of the artist “TOMORROW X TOGETHER” (also known as TXT). These streaming parties allow fans of TXT to gather in one place to enjoy and listen to music together, chat with each other, and on some occasions even get joined by the members of TXT themselves.</p>
+            <p class="thin-padding">For every new album released by TXT, their visual identity receives an update, and Moalympics likewise refreshes their look to match. My role within this was to design the social media posts to promote Moalympics’ streaming parties, while keeping in alignment with each album’s visual identity.</p>
+            </div>
+        </div>
+        <!-- intro finish -->
 
-          <div class="img-wrapper">
-            <img class="full-width rounded-img" src="images/moalympics/image2.png" alt="">
-          </div>
-          <div class="img-wrapper">
-            <img class="full-width rounded-img" src="images/moalympics/image3.png" alt="">
-          </div>
+        <!-- sanctuary start -->
+        <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
+            <h5 class="thing-padding" style="padding-top:0;padding-bottom:0;">The Star Chapter: Sanctuary</h5>
+        </div>
+        
+        <div class="full-width small-top">
+            <img class="full-width" src="images/moalympics/image4.png" alt="">
+        </div>
+        
+        <div class="full-width mid-padding">
+            <img class="full-width" src="images/moalympics/image5.png" alt="">
+        </div>
+        <!-- sanctuary finish -->
+
+        <!-- panic start -->
+        <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
+            <h5 class="thin-padding" style="padding-top:0;padding-bottom:0;">Panic</h5>
+        </div>
+
+        <div class="full-width small-top">
+            <img class="full-width" src="images/moalympics/image6.png" alt="">
+        </div>
+
+        <div class="full-width mid-padding">
+            <img class="full-width" src="images/moalympics/image7.png" alt="">
+            <img class="full-width small-top" src="images/moalympics/image8.png" alt="">
 
         </div>
-        <!-- right side finish -->
+        <!-- panic finish -->
 
-      </div>
-      <!-- first section finish -->
-
-      <!-- intro start -->
-      <div class="row-flex full-width mid-padding">
-        <div class="one-third-width mid-padding">
-          <h5 class="thin-padding">Introduction</h5>
-          <h6 class="thin-padding">A unique challenge of unfixed branding</h6>
+        <!-- lovelanguage start -->
+        <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
+            <h5 class="thin-padding" style="padding-top:0;padding-bottom:0;">Love Language</h5>
         </div>
-        <div class="two-third-width mid-padding bigger-body">
-          <p class="thin-padding">Moalympics is a fan-led initiative consisting of a group of volunteers who host streaming parties on Stationhead and Weverse in support of the artist “TOMORROW X TOGETHER” (also known as TXT). These streaming parties allow fans of TXT to gather in one place to enjoy and listen to music together, chat with each other, and on some occasions even get joined by the members of TXT themselves.</p>
-          <p class="thin-padding">For every new album released by TXT, their visual identity receives an update, and Moalympics likewise refreshes their look to match. My role within this was to design the social media posts to promote Moalympics’ streaming parties, while keeping in alignment with each album’s visual identity.</p>
+
+        <div class="full-width small-top">
+            <img class="full-width" src="images/moalympics/image9.png" alt="">
         </div>
-      </div>
-      <!-- intro finish -->
 
-      <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
-        <h5 class="thing-padding" style="padding-top:0;padding-bottom:0;">The Star Chapter: Sanctuary</h5>
-      </div>
+        <div class="full-width thin-padding">
 
-      <!-- sanctuary start -->
-      <div class="full-width mid-top">
-        <img class="full-width" src="images/moalympics/image4.png" alt="">
-      </div>
-      <!-- sanctuary finish -->
+            <!-- row1 start -->
+            <div class="full-width row-flex">
+                <div class="half-width img-wrapper">
+                    <img class="full-width rounded-img" src="images/moalympics/image10.png" alt="">
+                </div>
+                <div class="half-width img-wrapper">
+                    <video class="full-width rounded-img" src="videos/moalympics-ll-1.mp4" muted loop autoplay></video>
+                </div>
+            </div>
+            <!-- row1 finish -->
 
-      <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
-        <h5 class="thing-padding" style="padding-top:0;padding-bottom:0;">Illustration Creation</h5>
-      </div>
-      
-      <!-- illustration bits start -->
-      <div class="full-width mid-top">
-        <img class="full-width" src="images/coral-rescue/cr-10.svg" alt="">
-        <img class="full-width small-top" src="images/coral-rescue/cr-11.png" alt="">
-      </div>
-      <!-- illustration bits finish -->
+            <!-- row2 start -->
+            <div class="full-width row-flex small-top">
+                <div class="half-width img-wrapper">
+                    <video class="full-width rounded-img" src="videos/moalympics-ll-2.mp4" muted loop autoplay></video>
+                </div>
+                <div class="half-width img-wrapper">
+                    <img class="full-width rounded-img" src="images/moalympics/image11.png" alt="">
+                </div>
+            </div>
+            <!-- row2 finish -->
 
-      <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
-        <h5 class="thin-padding" style="padding-top:0;padding-bottom:0;">Colour</h5>
-      </div>
+            <!-- row3 start -->
+            <div class="full-width row-flex small-top">
+                <div class="half-width img-wrapper">
+                    <img class="full-width rounded-img" src="images/moalympics/image12.png" alt="">
+                </div>
+                <div class="half-width img-wrapper">
+                    <img class="full-width rounded-img" src="images/moalympics/image13.png" alt="">
+                </div>
+            </div>
+            <!-- row3 finish -->
 
-      <!-- colourtests start -->
-      <div class="full-width mid-top">
-        <img class="full-width" src="images/coral-rescue/cr-12.png" alt="">
-      </div>
-      <!-- colourtests finish -->
-
-      <!-- colour start -->
-      <div class="row-flex full-width mid-top">
-        <div class="two-fifth-width thick-padding">
-          <h6 class="thin-padding">Painted according to comfort & comprehensibility</h6>
-          <p class="thin-padding bigger-body">
-            The reality of our planet’s deterioration can be a daunting topic. With that in mind, the colour palette was crafted to make the information approachable and easy to digest. Blue takes centre stage to provide a calm, stable backdrop. The pink accents serve to draw the eye and infuse additional warmth into the scenes.
-          </p>
         </div>
-        <div class="three-fifth-width mid-padding">
-          <div class="full-width img-wrapper">
-            <img class="full-width rounded-img" src="images/coral-rescue/cr-palette.svg" alt="">
-          </div>
+
+        <!-- lovelanguage finish -->
+
+        <!-- together start -->
+        <div class="row-flex full-width thick-padding thick-top" style="padding-top:0;padding-bottom:0;">
+            <h5 class="thin-padding" style="padding-top:0;padding-bottom:0;">The Star Chapter: Together</h5>
         </div>
-      </div>
-      <!-- colour finish finish -->
 
-      <!-- colour scenes start -->
-      <div class="full-width row-flex mid-padding">
-        <div class="half-width img-wrapper">
-          <video class="full-width rounded-img thick-top" src="videos/cr-v-2.mp4" muted loop autoplay></video>
-          <p class="mid-padding bigger-body">Desaturation of colour was utilised to communicate the negative consequences of coral reef decline.</p>
+        <div class="full-width small-top">
+            <img class="full-width" src="images/moalympics/image14.png" alt="">
         </div>
-        <div class="half-width">
-          <div class="full-width img-wrapper">
-            <img class="full-width rounded-img" src="images/coral-rescue/cr-6.svg" alt="">
-          </div>
-          <div class="full-width img-wrapper">
-            <img class="full-width small-top rounded-img" src="images/coral-rescue/cr-7.svg" alt="">
-          </div>
+
+        <div class="full-width mid-padding">
+            <img class="full-width" src="images/moalympics/image15.png" alt="">
         </div>
-      </div>
-      <!-- colour scenes finish -->
 
-      <div class="row-flex full-width thick-padding" style="padding-top:0;padding-bottom:0;">
-        <h5 class="thin-padding">Final Outcome</h5>
-      </div>
-
-      <video class="full-width" src="videos/cr-v-1.mkv" muted autoplay loop></video>
-
-      <!-- images start -->
-      <div class="full-width row-flex mid-padding">
-        <div class="img-wrapper three-fifth-width">
-          <img class="full-width rounded-img" src="images/coral-rescue/cr-3.png" alt="">
+        <div class="full-width" style="background-color: #E9EDFD;">
+            <div class="full-width row-flex mid-padding" style="border:30px solid #E9EDFD;">
+                <div class="one-third-width">
+                    <img class="full-width rounded-img" src="images/moalympics/image16.gif" alt="">
+                </div>
+                <div class="one-third-width">
+                    <img class="full-width rounded-img" src="images/moalympics/image17.gif" alt="">
+                </div>
+                <div class="one-third-width">
+                    <img class="full-width rounded-img" src="images/moalympics/image18.gif" alt="">
+                </div>
+            </div>
         </div>
-        <div class="img-wrapper two-fifth-width">
-          <img class="full-width rounded-img" src="images/coral-rescue/cr-4.png" alt="">
+
+        <div class="full-width mid-padding">
+            <img class="full-width" src="images/moalympics/image19.png" alt="">
         </div>
-      </div>
-      <!-- images finish -->
+        <!-- together finish -->
 
-      <!-- format start -->
-      <div class="row-flex full-width mid-padding">
-        <div class="one-third-width mid-padding">
-          <h5 class="thin-padding">Format</h5>
-          <h6 class="thin-padding">Tailoring to user behaviour & needs</h6>
+        <!-- youmayalsolike start -->
+        <div class="full-width thick-padding extra-content">
+            <h2 class="thin-padding">You may also like...</h2>
+            <div class="full-width row-flex">
+
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="one-day.html">
+                    <img class="full-width" src="images/one-day/one-day-thumbnail.jpg" alt="">
+                    </a>
+                </div>
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="her-legend.html">
+                    <img class="full-width" src="images/her-legend/her-legend-thumbnail.png" alt="">
+                    </a>
+                </div>
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="nautiqua.html">
+                    <img class="full-width" src="images/nautiqua/nautiqua-thumbnail-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="little-night-helpers.html">
+                    <img class="full-width" src="images/little-night-helpers/thumbnail2.png" alt="">
+                    </a>
+                </div>
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="coral-rescue.html">
+                    <img class="full-width" src="images/coral-rescue/coral-rescue-thumbnail.png" alt="">
+                    </a>
+                </div>
+                <div class="one-quarter-width thin-padding">
+                    <a class="extra-content-item" href="pasc.html">
+                    <img class="full-width" src="images/pasc/pasc-home-mockup.png" alt="">
+                    </a>
+                </div>
+
+            </div>
         </div>
-        <div class="two-third-width mid-padding bigger-body">
-          <p class="thin-padding">Explainable and promotive illustrations outperform decorational illustrations (Luo & Lin, 2017); in other words, <b>illustrations in a learning context cannot be used in isolation—another form of communication is necessary to explain them.</b></p>
-          <p class="thin-padding">Guided by this information, I explored different formats which support the combination of illustrations paired with written communication. The website format emerged as the most effective, as it limited the scope of vision, which prevented overwhelming the user, and provided interactivity, which maintained attention. Additionally, this was the most preferred format among users due to its convenience.</p>
-          <p class="thin-padding">The website was then refined through the incorporation of motion and interactivity to make better use of the medium and create a cohesive final product.</p>
+        <!-- youmayalsolike finish -->
+
         </div>
-      </div>
-      <!-- format finish -->
+        <!-- CASE STUDY FINISH -->
 
-      <!-- rows start -->
-      <div class="full-width mid-padding">
 
-        <!-- row1 start -->
-        <div class="full-width row-flex">
-          <div class="half-width img-wrapper">
-            <img class="full-width rounded-img" src="images/coral-rescue/cr-8.svg" alt="">
-          </div>
-          <div class="half-width img-wrapper">
-            <video class="full-width rounded-img" src="videos/cr-v-3.mp4" muted loop autoplay></video>
-          </div>
-        </div>
-        <!-- row1 finish -->
+        <!-- footer start -->
+        <footer id="contact" class="white-text">
 
-        <!-- row2 start -->
-        <div class="full-width row-flex small-top">
-          <div class="img-wrapper three-fifth-width">
-            <video class="full-width rounded-img" src="videos/cr-v-4.mp4" muted loop autoplay></video>
-          </div>
-          <div class="img-wrapper two-fifth-width">
-            <img class="full-width rounded-img" src="images/coral-rescue/cr-9.svg" alt="">
-          </div>
-        </div>
-        <!-- row2 finish -->
-
-        <!-- row3 start -->
-        <div class="full-width row-flex small-top">
-          <div class="half-width img-wrapper">
-            <video class="full-width rounded-img" src="videos/cr-v-5.mp4" muted loop autoplay></video>
-          </div>
-          <div class="half-width img-wrapper">
-            <video class="full-width rounded-img" src="videos/cr-v-6.mp4" muted loop autoplay></video>
-          </div>
-        </div>
-        <!-- row3 finish -->
-
-      </div>
-      <!-- rows finish -->
-
-      <!-- final start -->
-      <div class="full-width thick-top">
-        <img class="full-width" src="images/coral-rescue/coral-rescue-thumbnail.png" alt="">
-      </div>
-      <!-- final finish -->
-
-      <!-- youmayalsolike start -->
-      <div class="full-width thick-padding extra-content">
-        <h2 class="thin-padding">You may also like...</h2>
-        <div class="full-width row-flex">
-
-          <div class="one-quarter-width thin-padding">
-            <a class="extra-content-item" href="one-day.html">
-              <img class="full-width" src="images/one-day/one-day-thumbnail.jpg" alt="">
+        <h2>Drop me a line</h2>
+        <div class="footer-flex">
+            <p>+64 22 126 8697</p>
+            <p>wonara.nz@gmail.com</p>
+            <div class="social-icons">
+            <a href="https://www.instagram.com/nara_won" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
             </a>
-          </div>
-          <div class="one-quarter-width thin-padding">
-            <a class="extra-content-item" href="her-legend.html">
-              <img class="full-width" src="images/her-legend/her-legend-thumbnail.png" alt="">
+            <a href="https://www.linkedin.com/in/nara-w" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
             </a>
-          </div>
-          <div class="one-quarter-width thin-padding">
-            <a class="extra-content-item" href="nautiqua.html">
-              <img class="full-width" src="images/nautiqua/nautiqua-thumbnail-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="one-quarter-width thin-padding">
-            <a class="extra-content-item" href="little-night-helpers.html">
-              <img class="full-width" src="images/little-night-helpers/thumbnail2.png" alt="">
-            </a>
-          </div>
-          <div class="one-quarter-width thin-padding">
-            <a class="extra-content-item" href="pasc.html">
-              <img class="full-width" src="images/pasc/pasc-home-mockup.png" alt="">
-            </a>
-          </div>
-          <div class="half-width thin-padding">&nbsp;</div>
-
+            </div>
+            <div style="width:50px;">&nbsp;</div>
         </div>
-      </div>
-      <!-- youmayalsolike finish -->
 
-    </div>
-    <!-- CASE STUDY FINISH -->
-
-
-    <!-- footer start -->
-    <footer id="contact" class="white-text">
-
-      <h2>Drop me a line</h2>
-      <div class="footer-flex">
-        <p>+64 22 126 8697</p>
-        <p>wonara.nz@gmail.com</p>
-        <div class="social-icons">
-          <a href="https://www.instagram.com/nara_won" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/nara-w" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
+        <div class="copyright">
+            <p>&copy; 2026 Nara Won</p>
         </div>
-        <div style="width:50px;">&nbsp;</div>
-      </div>
 
-      <div class="copyright">
-        <p>&copy; 2026 Nara Won</p>
-      </div>
+        </footer>
+        <!-- footer finish -->
 
-    </footer>
-    <!-- footer finish -->
+    </main>
+    <!-- main content finish -->
 
-  </main>
-  <!-- main content finish -->
-
-</body>
-</html>
+    </body>
+    </html>
